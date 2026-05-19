@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hr_001",
+    "category": "HR Policies",
+    "subcategory": "Leave Policy",
+    "title": "Casual Leave Policy",
+    "content": "Casual Leave (CL) Policy at NovaTech Solutions:\n\nEntitlement:\n- All permanent employees get 12 casual leave days per year\n- Leaves are credited on January 1 each year\n- Pro-rated for employees joining mid-year (e.g., joining July 1 = 6 days)\n\nRules:\n- CL can be taken in half-days (minimum 0.5 days)\n- Maximum 3 consecutive CL days allowed without manager approval\n- Cannot be carried forward to the next year\n- Cannot be encashed\n- Cannot be clubbed with earned leave or sick leave without prior approval\n\nApplication Process:\n1. Log in to the HR Self-Service Portal (https://hr.novatech.internal)\n2. Go to 'Leave Management' > 'Apply Leave'\n3. Select leave type: Casual Leave\n4. Enter dates and reason\n5. Submit — your manager receives an approval notification\n6. Aim to apply at least 3 days in advance for planned leaves\n7. For emergencies, inform your manager and apply on return\n\nLeave Balance Check:\n- HR Portal > 'My Leave Balance' shows remaining CL, SL, and EL\n\nNational/Public Holidays:\n- NovaTech observes 12 public holidays per year\n- Holiday calendar published in December for the following year",
+    "keywords": ["casual leave", "CL", "leave policy", "how many leaves", "leave balance", "apply leave"]
+  },
+  {
+    "id": "hr_002",
+    "category": "HR Policies",
+    "subcategory": "Leave Policy",
+    "title": "Sick Leave Policy",
+    "content": "Sick Leave (SL) Policy at NovaTech Solutions:\n\nEntitlement:\n- All permanent employees receive 10 sick leave days per year\n- Credited on January 1, pro-rated for mid-year joiners\n\nRules:\n- Sick leave is for personal illness or injury only\n- For sick leave exceeding 3 consecutive days, a medical certificate from a registered doctor is mandatory\n- Cannot be carried forward (use-it-or-lose-it)\n- Cannot be encashed\n- Sick leave can be combined with casual leave if medically necessary\n\nApplication Process:\n1. Inform your manager via Teams/phone as soon as you know you'll be absent\n2. Apply on HR Portal > 'Leave Management' > 'Apply Leave' > Sick Leave\n3. If sick for 3+ days, upload the medical certificate on the portal when you return\n4. For hospitalization, notify HR (hr@novatech.com) directly\n\nChild Care Leave:\n- Female employees with children under 18 can use up to 5 sick days per year for child's illness\n- Mark as 'Child Care (under SL)' on the portal\n\nIf SL Balance Is Exhausted:\n- Speak to HR — in genuine cases, LOP (Loss of Pay) leave may be granted\n- Extended illness (30+ days): May qualify for long-term disability support",
+    "keywords": ["sick leave", "SL", "medical leave", "ill", "sick", "medical certificate", "sick leave policy"]
+  },
+  {
+    "id": "hr_003",
+    "category": "HR Policies",
+    "subcategory": "Leave Policy",
+    "title": "Earned Leave / Annual Leave Policy",
+    "content": "Earned Leave (EL) / Annual Leave Policy at NovaTech Solutions:\n\nEntitlement:\n- 18 earned leave days per year\n- Accrues at 1.5 days per month (credited at end of each month)\n\nCarry Forward:\n- Maximum 45 days can be carried forward to the next year\n- Accrued EL beyond 45 days is auto-encashed in December at basic salary rate\n\nEncashment:\n- Employees can encash up to 10 EL days per year (in July, after 2 years of service)\n- Full encashment (all accumulated EL) is done at separation\n\nApplication Rules:\n- Minimum application: 5 business days in advance for EL\n- Must be approved by manager before proceeding\n- Maximum 15 consecutive EL days without COO approval\n- Blackout periods: No EL approved during Q4 (Oct–Dec) for Finance team; product launch freeze periods for Engineering\n\nApplication Process:\n1. HR Portal > 'Leave Management' > 'Apply Leave' > Earned Leave\n2. Enter dates, select 'Planned Holiday / Vacation' as reason\n3. Attach handover plan for leaves longer than 5 days\n4. Manager approves within 2 business days\n\nLeave Without Pay (LWP):\n- If all EL is exhausted, additional leave is treated as LWP\n- LWP deducted from salary proportionally (basic+DA component)",
+    "keywords": ["earned leave", "annual leave", "EL", "vacation", "leave carry forward", "leave encashment", "planned leave"]
+  },
+  {
+    "id": "hr_004",
+    "category": "HR Policies",
+    "subcategory": "Leave Policy",
+    "title": "Maternity and Paternity Leave Policy",
+    "content": "Maternity and Paternity Leave at NovaTech Solutions:\n\nMaternity Leave:\n- Entitlement: 26 weeks (182 days) fully paid, as per the Maternity Benefit Act 2017\n- Eligibility: Female employees who have worked at NovaTech for at least 80 days in the 12 months prior to expected delivery\n- For 3rd child and beyond: 12 weeks maternity leave\n- Miscarriage/medical termination: 6 weeks paid leave from the date of event\n- Pre-adoption: 12 weeks for adoptive mothers (child under 3 months)\n- Work from home: After maternity leave, nursing mothers may request 6 months WFH extension\n\nPaternity Leave:\n- Entitlement: 2 weeks (14 days) paid leave\n- Must be taken within 3 months of child's birth\n- Applicable for birth, adoption, and surrogacy\n- Apply via HR Portal at least 4 weeks before expected date\n\nApplication Process (Maternity):\n1. Inform HR at least 8 weeks before expected delivery date\n2. Submit application on HR Portal > 'Leave Management' > 'Maternity Leave'\n3. Attach medical certificate from OB/GYN indicating expected delivery date\n4. HR will send a formal approval within 5 business days\n5. Discuss handover plan with manager\n\nReturn to Work:\n- A phased return (50% time for 4 weeks) is available on request\n- Dedicated nursing room on Floor 2 (Room 2-45)\n- Creche tie-up available — contact hr@novatech.com for partner details",
+    "keywords": ["maternity leave", "paternity leave", "maternity policy", "paternity policy", "baby", "pregnancy", "parental leave"]
+  },
+  {
+    "id": "hr_005",
+    "category": "HR Policies",
+    "subcategory": "WFH",
+    "title": "Work From Home (WFH) Policy",
+    "content": "Work From Home (WFH) Policy at NovaTech Solutions:\n\nStandard WFH Allowance:\n- All employees (post-probation) are eligible for 2 WFH days per week\n- Probationary employees (first 6 months): WFH not allowed except in exceptional circumstances\n- Teams decide which days to WFH — coordinate with manager to ensure team coverage\n\nApplication Process:\n1. HR Portal > 'WFH Management' > 'Apply WFH'\n2. Select dates and confirm manager approval (some managers require prior discussion)\n3. For regular WFH (same days each week), set a recurring WFH schedule with manager's consent\n\nWFH Rules:\n- Must be available on phone and Teams during office hours (10 AM – 7 PM IST)\n- Attend all scheduled meetings via video (camera on for important meetings)\n- Home internet must be adequate for video calls (recommended: 25 Mbps)\n- VPN must be active when accessing company systems remotely\n\nAdditional WFH:\n- Medical/personal reasons: Manager may approve extra WFH days\n- Location-based: Employees based outside Bengaluru (approved by HR) may have different WFH terms\n\nWFH Equipment Allowance:\n- One-time INR 10,000 WFH setup allowance for employees who have been with NovaTech 1+ year\n- Claim via HR Portal > 'Reimbursements' > 'WFH Setup Allowance'\n- Covered items: Chair, desk lamp, keyboard, mouse, headset (receipts required)",
+    "keywords": ["wfh", "work from home", "remote work", "wfh policy", "wfh days", "work remotely"]
+  },
+  {
+    "id": "hr_006",
+    "category": "HR Policies",
+    "subcategory": "Reimbursement",
+    "title": "Expense Reimbursement Process",
+    "content": "Expense Reimbursement at NovaTech Solutions:\n\nEligible Expenses:\n- Travel (cab, auto, fuel) for client meetings or official work\n- Meals during client entertainment or late-night work (post 9 PM)\n- Internet/phone bills for approved remote workers\n- Training and certification courses (with pre-approval)\n- Conference registration fees (with manager + HR approval)\n\nReimbursement Limits (per month unless noted):\n- Local travel: INR 5,000 / month\n- Meals: INR 2,000 / month (business entertainment: no limit with approval)\n- Internet: INR 1,000 / month (remote employees)\n- Mobile bill: INR 500 / month\n- WFH setup (one-time): INR 10,000\n\nSubmission Process:\n1. HR Portal > 'Finance' > 'Expense Reimbursement' > 'New Claim'\n2. Add each expense with: date, category, amount, description, receipt photo\n3. Submit by the 25th of each month for processing in that month's payroll\n4. Manager approval required for claims over INR 1,000\n5. Approved claims are paid with the next salary cycle\n\nReceipt Requirements:\n- Original digital receipts preferred (PDF or photo)\n- Cab receipts: Ola/Uber app receipts accepted\n- Meals: Restaurant bill + payment receipt\n\nTravel Policy:\n- Air travel > 3 hours: Economy class (business class requires CXO approval)\n- Hotel: INR 7,000/night (Tier-1 cities), INR 5,000/night (Tier-2)\n- Per diem: INR 1,500/day for meals during outstation travel",
+    "keywords": ["reimbursement", "expense claim", "travel reimbursement", "expense policy", "claim money", "submit expense"]
+  },
+  {
+    "id": "hr_007",
+    "category": "HR Policies",
+    "subcategory": "Code of Conduct",
+    "title": "Code of Conduct",
+    "content": "Code of Conduct at NovaTech Solutions:\n\nCore Principles:\n1. Integrity — Be honest in all business dealings. Do not falsify records or reports.\n2. Respect — Treat all colleagues, clients, and partners with dignity, regardless of their role or background.\n3. Accountability — Own your mistakes. Report issues promptly rather than hiding them.\n4. Excellence — Strive for quality in your work. Commit to continuous learning and improvement.\n5. Collaboration — Share knowledge, support team members, and celebrate collective success.\n\nProhibited Conduct:\n- Discrimination based on gender, religion, caste, nationality, disability, or sexual orientation\n- Sexual harassment (see Anti-Harassment Policy for detailed definition)\n- Workplace violence, intimidation, or bullying\n- Misuse of company assets (equipment, data, funds)\n- Conflicts of interest (undisclosed personal business dealings with vendors)\n- Insider trading (trading on non-public company information)\n- Moonlighting without HR approval (taking another full-time job while employed)\n\nReporting Violations:\n- Anonymous Ethics Hotline: 1800-NOVATECH (1800-668-2832)\n- Email: ethics@novatech.com\n- HR Business Partner: hr-bp@novatech.com\n\nAll reports are investigated confidentially. Retaliation against reporters is a separate, serious violation.\n\nConsequences:\n- Minor violations: Verbal or written warning\n- Serious violations: Suspension, demotion, or termination\n- Legal violations: Reported to law enforcement",
+    "keywords": ["code of conduct", "conduct policy", "behavior", "ethics", "workplace conduct", "ethics policy"]
+  },
+  {
+    "id": "hr_008",
+    "category": "HR Policies",
+    "subcategory": "Anti-Harassment",
+    "title": "Anti-Harassment and POSH Policy",
+    "content": "Anti-Harassment and POSH Policy at NovaTech Solutions:\n\nNovaTech has zero tolerance for workplace harassment, including sexual harassment.\n\nDefinition of Sexual Harassment (per PoSH Act 2013):\n- Physical contact or advances of a sexual nature\n- Demand or request for sexual favours\n- Sexually coloured remarks\n- Showing pornography\n- Any other unwelcome physical, verbal, or non-verbal conduct of a sexual nature\n\nInternal Complaints Committee (ICC):\n- Presiding Officer: Priya Sharma (Head of HR)\n- External Member: Adv. Kavitha Nair\n- Employee Members: Rohan Mehta, Ananya Reddy\n- Contact: icc@novatech.com | +91-98765-43210 (confidential)\n\nComplaint Process:\n1. File a written complaint with the ICC within 3 months of the incident\n2. ICC acknowledges within 7 working days\n3. Inquiry completed within 90 days\n4. Inquiry report submitted to employer within 10 days of completion\n5. Employer acts on recommendations within 60 days\n\nFor Witnesses and Bystanders:\n- Bystander intervention is encouraged: Interrupt, delegate to authority, or support the affected person\n- Witnesses may report to ICC even if the victim hasn't filed formally\n\nAnonymous Reporting:\n- Ethics Hotline: 1800-NOVATECH\n- Anonymous online form: https://novatech.com/ethics-report\n\nProtection Against Retaliation:\n- Anyone who files a complaint in good faith is protected\n- Retaliation itself is a punishable offense",
+    "keywords": ["harassment", "sexual harassment", "posh", "icc", "complaints committee", "workplace harassment", "anti-harassment"]
+  },
+  {
+    "id": "hr_009",
+    "category": "HR Policies",
+    "subcategory": "Performance",
+    "title": "Performance Review Cycle",
+    "content": "Performance Review Cycle at NovaTech Solutions:\n\nReview Cadence:\n- Annual Review: January (for previous calendar year Jan–Dec)\n- Mid-Year Check-in: July (informal, no rating)\n- Quarterly 1:1s: Every quarter between employee and manager\n\nRating Scale:\n1. Exceptional (5) — Consistently far exceeds expectations\n2. Exceeds Expectations (4) — Regularly surpasses goals\n3. Meets Expectations (3) — Fully meets all goals\n4. Needs Improvement (2) — Partially meets expectations\n5. Below Expectations (1) — Does not meet expectations\n\nProcess:\n1. Self-Assessment (December 1–10): Employee fills in self-review on HR Portal\n2. Manager Review (December 11–20): Manager submits rating and feedback\n3. Calibration (December 21–31): Cross-team calibration to ensure fairness\n4. Final Ratings Released (January 15): Available on HR Portal\n5. Pay Revision & Promotions Announced: February 1\n\nGoal Setting (OKRs):\n- Set for each quarter in collaboration with manager\n- Tracked on the OKR platform (Lattice)\n- OKR performance influences annual rating\n\nPromotion Criteria:\n- Minimum 2 years in current role\n- Last 2 annual ratings of 4 or above\n- Promotion recommendation by manager, approved by senior leadership\n\nPIP (Performance Improvement Plan):\n- Issued to employees rated 1 or 2 twice consecutively\n- 90-day structured improvement plan\n- Failure to improve may result in separation",
+    "keywords": ["performance review", "appraisal", "rating", "annual review", "performance cycle", "okr", "promotion criteria"]
+  },
+  {
+    "id": "hr_010",
+    "category": "HR Policies",
+    "subcategory": "Benefits",
+    "title": "Health Insurance and Benefits",
+    "content": "Employee Benefits at NovaTech Solutions:\n\nHealth Insurance (Group Mediclaim):\n- Coverage: INR 5,00,000 per employee per year (floater family coverage)\n- Family: Employee + spouse + 2 dependent children OR parents (choose one at enrollment)\n- Pre-existing conditions: Covered after 1-year waiting period\n- Cashless hospitalization: At 500+ network hospitals\n- Insurer: Star Health Insurance\n- TPA: Mediassist\n\nHow to Use Insurance:\n- Cashless: Show your Mediassist card at the hospital (received in welcome kit)\n- Reimbursement: Pay and submit bills within 30 days to Mediassist\n- Emergency helpline: 1800-425-9090 (24/7)\n\nTop-Up Plan:\n- Optional: Extra INR 5,00,000 coverage at employee's cost (INR 3,500/year)\n- Enroll during benefits window (October annually)\n\nGroup Term Life Insurance:\n- Coverage: 5x annual CTC\n- No additional cost to employee\n- Nominee update: HR Portal > 'Benefits' > 'Insurance Nominees'\n\nGroup Personal Accident Insurance:\n- Coverage: 3x annual CTC\n- Covers accidental death and permanent disability\n\nWellness Benefits:\n- Annual Health Check-up: INR 3,000 voucher for preventive health check\n- Mental Health: 6 free counseling sessions via MindPeers app (code: NOVATECH2024)\n- Gym Reimbursement: INR 1,500/month gym membership reimbursement (submit invoice)\n\nBenefits Enrollment:\n- Open enrollment: October 1–15 each year\n- Changes mid-year only for life events (marriage, new child)",
+    "keywords": ["health insurance", "medical insurance", "benefits", "mediclaim", "gym reimbursement", "life insurance", "insurance policy"]
+  },
+  {
+    "id": "hr_011",
+    "category": "HR Policies",
+    "subcategory": "Resignation",
+    "title": "Resignation and Notice Period Policy",
+    "content": "Resignation Policy at NovaTech Solutions:\n\nNotice Period:\n- Employees in their first year: 30 days\n- Employees completing 1 year: 60 days\n- Managers and above (L5+): 90 days\n\nResignation Process:\n1. Submit resignation via HR Portal > 'My Employment' > 'Resign'\n2. Manager notification is automatic\n3. HR will schedule an exit interview within 5 days\n4. Last working day is calculated based on notice period\n\nNotice Period Buyout:\n- Employee may buy out remaining notice at 1x daily basic salary per day\n- Example: 30 days remaining, basic salary INR 50,000/month → buyout = INR 50,000\n- Must be approved by manager and HR\n\nGardening Leave:\n- For certain roles (senior leadership, sensitive projects), NovaTech may require gardening leave during notice period\n- Employee remains on payroll but does not work or access systems\n\nFull & Final Settlement (FFS):\n- Processed within 45 days of last working day\n- Includes: Remaining salary, EL encashment, gratuity (if eligible), PF settlement details\n- Relieving letter issued after all dues cleared and assets returned\n\nNon-Compete and Non-Solicitation:\n- 6-month non-solicitation of NovaTech clients and employees\n- Non-compete applies for direct competitors in same domain (12 months, specific to offer letter terms)\n\nPF Settlement:\n- UAN activation: HR Portal > 'Payroll' > 'PF Details'\n- PF withdrawal/transfer initiated by employee on EPFO portal after 2 months of separation",
+    "keywords": ["resignation", "notice period", "resign", "last working day", "exit", "full and final", "relieving letter"]
+  },
+  {
+    "id": "hr_012",
+    "category": "HR Policies",
+    "subcategory": "Referral",
+    "title": "Employee Referral Programme",
+    "content": "Employee Referral Programme at NovaTech Solutions:\n\nReferral Bonus:\n- For non-leadership roles (L1–L4): INR 25,000\n- For senior roles (L5–L6 Managers): INR 50,000\n- For Director-level roles (L7+): INR 1,00,000\n- Tech roles get an additional INR 10,000 for rare/niche skills (ML Engineers, Security Specialists)\n\nEligibility:\n- All permanent employees are eligible to refer candidates\n- Probationary employees can refer but receive bonus only after their own probation is confirmed\n- HR team members are not eligible (to prevent conflicts)\n- C-suite referrals are not eligible\n\nHow to Refer:\n1. Go to HR Portal > 'Talent Acquisition' > 'Refer a Candidate'\n2. Fill in the candidate's details and upload their CV\n3. Select the open position from the dropdown\n4. Candidate will receive an auto-email with application link\n\nBonus Payout:\n- First 50%: Paid when the candidate joins (Day 1)\n- Remaining 50%: Paid when the candidate completes 6 months\n- If the candidate leaves before 6 months, only the first tranche is paid\n\nTracking:\n- HR Portal shows real-time status of your referrals (Applied, Interview, Offer, Joined)\n\nReferral Eligibility Rules:\n- Cannot refer ex-employees who left within 6 months\n- Candidate must not have applied to NovaTech in the past 6 months",
+    "keywords": ["referral", "employee referral", "refer a friend", "referral bonus", "refer candidate", "referral programme"]
+  },
+  {
+    "id": "hr_013",
+    "category": "HR Policies",
+    "subcategory": "Training",
+    "title": "Learning and Development Policy",
+    "content": "Learning and Development (L&D) at NovaTech Solutions:\n\nAnnual Training Budget:\n- Individual contributors: INR 20,000 per year\n- Managers: INR 35,000 per year\n- Senior leadership: INR 75,000 per year\n\nUsing Your Training Budget:\n1. HR Portal > 'Learning' > 'Training Request'\n2. Add course details, cost, and link to the course\n3. Manager approval required for external training\n4. After completion, upload certificate for budget release\n\nInternal Learning (Free):\n- LinkedIn Learning: Full access, unlimited courses\n- NovaTech Academy: Internal courses on company systems, processes, and soft skills\n- Tech Talks: Weekly internal sessions by senior engineers\n- Lunch & Learn: Bi-weekly knowledge-sharing sessions (12 PM–1 PM, every other Wednesday)\n\nExternal Certifications:\n- Fully funded: AWS, GCP, Azure certifications (first attempt)\n- Partially funded (50%): Scrum, PMP, CISSP, CFA\n- Reimbursed after passing (with certificate submission)\n\nConference Attendance:\n- Each team has a budget for 1 team member to attend an industry conference per year\n- Apply via manager; HR pre-approves the budget\n\nStudy Leave:\n- Up to 5 days per year for exam preparation (not deducted from EL/SL)\n- Must provide exam admit card as proof\n\nBond for Sponsored Courses:\n- Courses costing > INR 50,000: 1-year service bond\n- Courses costing > INR 1,00,000: 2-year service bond",
+    "keywords": ["training", "learning", "development", "L&D", "certification", "training budget", "course", "linkedin learning"]
+  },
+  {
+    "id": "hr_014",
+    "category": "HR Policies",
+    "subcategory": "Policies",
+    "title": "Work Hours and Overtime Policy",
+    "content": "Work Hours Policy at NovaTech Solutions:\n\nStandard Work Hours:\n- 9 hours per day (including 1-hour lunch break) = 8 working hours\n- Core hours: 10:00 AM – 4:00 PM IST (all employees must be available)\n- Flexible window: Start between 8 AM – 11 AM, end accordingly\n\nFlex Hours:\n- Employees may flex within the 8 AM–8 PM window, subject to team needs\n- Night shifts (for global teams): Shift allowance of INR 200/night for shifts starting after 10 PM\n\nOvertime:\n- NovaTech does not have a mandatory overtime culture\n- Overtime is strictly voluntary\n- For contractual/hourly workers: 1.5x rate for hours beyond 9/day or 45/week\n- For salaried employees: No overtime pay, but compensatory off (comp-off) may be granted for weekend/holiday work\n\nComp-Off Policy:\n- If required to work on a public holiday or designated day off, employee earns 1 comp-off day\n- Must be applied within 30 days of the working holiday\n- Apply via HR Portal > 'Leave Management' > 'Comp-Off'\n\nBiometric Attendance:\n- Swipe your employee badge at entry/exit\n- If you forget to swipe, regularize via HR Portal within 3 days\n- Attendance records are reviewed monthly for payroll\n\nLate Coming:\n- Up to 30 minutes late: Considered on time (grace period)\n- More than 30 minutes: Half-day CL deducted (after 3 occurrences per month)",
+    "keywords": ["work hours", "office hours", "overtime", "comp off", "flexible hours", "core hours", "shift timing"]
+  },
+  {
+    "id": "hr_015",
+    "category": "HR Policies",
+    "subcategory": "Policies",
+    "title": "Dress Code Policy",
+    "content": "Dress Code Policy at NovaTech Solutions:\n\nMonday – Thursday (Business Casual):\n- Acceptable: Formal trousers/chinos, collared shirts, blouses, kurtas, sarees, formal dresses\n- Acceptable footwear: Formal shoes, loafers, heels (closed toe preferred)\n- Avoid: Torn jeans, sleeveless shirts, flip-flops, shorts\n\nFriday (Casual Friday):\n- Jeans (clean, no rips) are allowed\n- Neat t-shirts and casual shirts are acceptable\n- Sneakers are allowed\n\nClient Visit Days:\n- Business formal required when hosting or visiting clients\n- Smart blazer/jacket recommended\n- HR or manager will communicate when client dress code applies\n\nFestive Days:\n- Traditional and ethnic wear is encouraged on company-designated festive days\n- List of festive dress days published in the company calendar\n\nExceptions:\n- Technical/Operations roles where safety gear is needed follow department-specific guidelines\n- Medical exceptions (disability-related) can be discussed with HR\n\nWhy This Matters:\n- NovaTech's dress code reflects our professional and inclusive culture\n- Clients and visitors frequently visit our Bengaluru HQ\n\nReporting Dress Code Violations:\n- Manager's responsibility to address non-compliance sensitively and privately\n- Repeated violations may be noted in the annual conduct review",
+    "keywords": ["dress code", "attire", "office dress", "casual friday", "dress policy", "what to wear"]
+  }
+]

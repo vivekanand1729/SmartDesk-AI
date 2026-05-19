@@ -1,0 +1,162 @@
+[
+  {
+    "id": "it_001",
+    "category": "IT Support",
+    "subcategory": "Password Management",
+    "title": "Password Reset Process",
+    "content": "Password Reset at NovaTech Solutions:\n\nSelf-Service Reset (Recommended):\n1. Visit the Self-Service Password Portal at https://passwords.novatech.internal\n2. Click 'Forgot Password'\n3. Enter your employee ID or work email\n4. A verification code is sent to your registered mobile number\n5. Enter the code, then set a new password\n6. Password must be 12+ characters with uppercase, lowercase, number, and special character\n7. You cannot reuse the last 10 passwords\n\nIf locked out (after 5 failed attempts):\n- Contact IT Help Desk at ext. 2020 or it-support@novatech.com\n- IT will verify your identity via your employee ID and manager's name\n- Account unlock typically takes 15 minutes during business hours\n\nPassword expiry: Passwords expire every 90 days. You will receive a reminder email 14 days before expiry.",
+    "keywords": ["password", "reset", "forgot password", "locked out", "unlock account"]
+  },
+  {
+    "id": "it_002",
+    "category": "IT Support",
+    "subcategory": "VPN",
+    "title": "VPN Setup and Configuration",
+    "content": "VPN Setup at NovaTech Solutions:\n\nSupported VPN Client: Cisco AnyConnect\nVPN Server: vpn.novatech.com\n\nWindows Installation:\n1. Download Cisco AnyConnect from the Software Center (Software Center > Search 'AnyConnect')\n2. Run the installer with administrator privileges\n3. Open AnyConnect, enter 'vpn.novatech.com' as the server\n4. Log in with your Windows domain credentials\n5. Accept the certificate when prompted\n\nMac Installation:\n1. Download from Self-Service Portal (https://selfservice.novatech.internal)\n2. Install the .pkg file\n3. System Preferences > Security > Allow Cisco AnyConnect\n4. Open AnyConnect, enter 'vpn.novatech.com'\n5. Use your domain credentials (user@novatech.com format)\n\nCommon VPN Errors:\n- 'Authentication failed': Check Caps Lock, ensure MFA app is up to date\n- 'Unable to contact server': Check internet connection, try mobile hotspot\n- 'Certificate error': Contact IT — certificate may need renewal\n- 'Split tunnel': Only company traffic goes through VPN; personal browsing uses your local connection\n\nVPN is required for: Internal applications, SharePoint, HR system, Finance system, Source code repositories.",
+    "keywords": ["vpn", "cisco anyconnect", "remote access", "vpn setup", "vpn not working", "connect from home"]
+  },
+  {
+    "id": "it_003",
+    "category": "IT Support",
+    "subcategory": "Software Installation",
+    "title": "Software License Request Process",
+    "content": "Software License Requests at NovaTech Solutions:\n\nHow to Request New Software:\n1. Log in to the IT Service Portal at https://itportal.novatech.internal\n2. Navigate to 'Software Requests' > 'New Software Request'\n3. Fill in: Software name, version, business justification, manager's name\n4. Submit — your manager will receive an approval request via email\n5. Once approved, IT will provision the license within 3 business days\n6. You will receive an email with installation instructions\n\nPre-Approved Software (available via Software Center, no approval needed):\n- Microsoft Office 365 (Word, Excel, PowerPoint, Outlook, Teams)\n- Zoom\n- Slack\n- Chrome, Firefox, Edge browsers\n- 7-Zip, Adobe Acrobat Reader\n- Notepad++, VS Code (for developers)\n- Postman (for developers)\n\nNote: Do NOT install unlicensed software. All laptops have endpoint monitoring. Unauthorized software may trigger a security alert and be automatically removed.\n\nFor urgent requests (needed within 24 hours), email it-support@novatech.com with subject 'URGENT: Software Request' and your manager in CC.",
+    "keywords": ["software", "install", "license", "application", "software request", "install app"]
+  },
+  {
+    "id": "it_004",
+    "category": "IT Support",
+    "subcategory": "MFA",
+    "title": "Multi-Factor Authentication (MFA) Setup",
+    "content": "MFA Setup at NovaTech Solutions:\n\nNovaTech uses Microsoft Authenticator for MFA across all company systems.\n\nInitial Setup:\n1. Download Microsoft Authenticator on your phone (iOS App Store or Google Play)\n2. Open: https://aka.ms/mfasetup on a computer\n3. Sign in with your NovaTech email\n4. Choose 'Mobile app' and 'Receive notifications for verification'\n5. Scan the QR code shown on screen with the Authenticator app\n6. Enter the 6-digit code to verify\n\nMFA is required for:\n- Office 365 / Outlook\n- VPN access\n- HR self-service portal\n- Finance and payroll systems\n- Any application accessed outside the office network\n\nIf you lose your phone or get a new device:\n1. Email it-support@novatech.com from your work email\n2. IT will reset your MFA registration\n3. You will receive a temporary bypass code (valid 24 hours)\n4. Set up Authenticator on your new device within 24 hours\n\nBackup codes: During setup you can download 10 single-use backup codes. Store these securely (not on your phone).",
+    "keywords": ["mfa", "2fa", "two factor", "authenticator", "microsoft authenticator", "multi-factor"]
+  },
+  {
+    "id": "it_005",
+    "category": "IT Support",
+    "subcategory": "Network",
+    "title": "Guest WiFi Access",
+    "content": "Guest WiFi at NovaTech Solutions:\n\nNetwork Name (SSID): NovaTech-Guest\nPassword: Welcome@Nova2024 (rotates monthly — check the reception desk for current password)\n\nGuest WiFi provides:\n- Internet access only\n- No access to internal NovaTech systems\n- Bandwidth limited to 10 Mbps per device\n- Suitable for visitors, contractors, and personal devices\n\nFor contractors needing internal access:\n- A temporary domain account can be created by submitting a 'Contractor Access Request' on the IT Portal\n- Requires manager approval and specifies the exact systems needed\n- Access is automatically revoked at the end of the contract period\n\nEmployee personal devices (BYOD):\n- Personal phones can connect to NovaTech-Guest for internet\n- For work email on personal phones, see the Email Configuration guide\n- Personal laptops are not permitted on the corporate network (NovaTech-Corp)\n\nIf guests cannot connect, contact reception (ext. 1000) or IT Help Desk (ext. 2020).",
+    "keywords": ["guest wifi", "visitor wifi", "wifi password", "wireless", "internet access", "guest network"]
+  },
+  {
+    "id": "it_006",
+    "category": "IT Support",
+    "subcategory": "Email",
+    "title": "Email Configuration on Mobile Devices",
+    "content": "Setting Up Work Email on Mobile at NovaTech Solutions:\n\nNovaTech uses Microsoft Exchange / Office 365 for email.\n\niPhone / iPad Setup:\n1. Go to Settings > Mail > Accounts > Add Account\n2. Select 'Microsoft Exchange'\n3. Enter your work email: firstname.lastname@novatech.com\n4. Enter description: 'NovaTech Work'\n5. Tap 'Sign In' — you will be redirected to the Microsoft login page\n6. Authenticate with your password and MFA\n7. Select what to sync: Mail, Contacts, Calendars\n\nAndroid Setup:\n1. Download Microsoft Outlook from Play Store (recommended) or use built-in email\n2. Open Outlook > Add Account > Add Email Account\n3. Enter firstname.lastname@novatech.com\n4. Outlook will auto-detect Exchange settings\n5. Sign in with your credentials and approve MFA\n\nAndroid (Built-in Email App):\n1. Settings > Accounts > Add Account > Exchange\n2. Email: firstname.lastname@novatech.com\n3. Server: mail.novatech.com\n4. Domain: NOVATECH\n5. Use SSL: Yes, Port 993\n\nNote: By installing work email on your personal phone, the device must enroll in Intune MDM. IT gains the ability to remote-wipe only the work profile, not your personal data.\n\nIf setup fails, contact IT at ext. 2020.",
+    "keywords": ["email", "mobile email", "outlook mobile", "exchange", "iphone email", "android email", "work email on phone"]
+  },
+  {
+    "id": "it_007",
+    "category": "IT Support",
+    "subcategory": "Hardware",
+    "title": "Laptop and Hardware Procurement",
+    "content": "Hardware Procurement at NovaTech Solutions:\n\nStandard Laptop Configurations:\n- Engineers/Developers: MacBook Pro 14\" M3 or Dell XPS 15 (choice)\n- Business/Operations: Dell Latitude 14\" or Lenovo ThinkPad X1\n- Design/Creative: MacBook Pro 16\" M3\n\nNew Equipment Request Process:\n1. Submit a 'Hardware Request' on the IT Portal\n2. Justify the need (e.g., current laptop is 4+ years old, hardware failure)\n3. Manager approval required for requests over INR 50,000\n4. Lead time: 7–10 business days for in-stock items; 3–4 weeks for special orders\n\nEquipment Refresh Policy:\n- Laptops are eligible for replacement after 4 years\n- Hardware failures before 4 years are handled under warranty\n- Submit a warranty claim via the IT Portal under 'Hardware Issues'\n\nAccessories (no approval needed for standard items):\n- Keyboards, mice, webcams: Available via IT stock room (B-Wing, Room 103)\n- Monitors: Submit a request via IT Portal (one additional monitor per employee)\n- Docking stations: Available for Dell and Lenovo laptops\n\nReturn Policy:\n- All NovaTech equipment must be returned on last working day upon resignation/termination\n- Equipment not returned within 30 days will result in a salary deduction",
+    "keywords": ["laptop", "hardware", "new laptop", "equipment", "macbook", "dell", "procurement", "hardware request"]
+  },
+  {
+    "id": "it_008",
+    "category": "IT Support",
+    "subcategory": "Remote Access",
+    "title": "Remote Desktop Access Setup",
+    "content": "Remote Desktop Access at NovaTech Solutions:\n\nNovaTech uses Microsoft Remote Desktop (RDP) for accessing office workstations remotely.\n\nPrerequisites:\n- Must be connected to VPN first (see VPN Setup guide)\n- Your office workstation must be powered on\n- Remote Desktop must be enabled by IT on your workstation\n\nWindows — Connecting:\n1. Press Win + R, type 'mstsc', press Enter\n2. Enter your workstation name (e.g., NOVA-PC-12345) or IP address\n3. Click Connect\n4. Log in with your domain credentials\n\nMac — Connecting:\n1. Download 'Microsoft Remote Desktop' from the Mac App Store\n2. Click '+' > Add PC\n3. Enter your workstation name\n4. Add your credentials: domain\\username (e.g., NOVATECH\\john.doe)\n\nFinding Your Workstation Name:\n- Look at the asset tag on your computer (label starts with NOVA-PC-)\n- Or ask IT at ext. 2020\n\nSecurity Note:\nDo not leave RDP sessions open and unattended. Always lock the screen (Win+L) when stepping away. RDP sessions auto-timeout after 30 minutes of inactivity.\n\nFor Mac users who need to access Windows-based tools remotely without RDP, contact IT about Citrix Virtual Apps.",
+    "keywords": ["remote desktop", "rdp", "access office computer", "work from home", "remote access", "workstation"]
+  },
+  {
+    "id": "it_009",
+    "category": "IT Support",
+    "subcategory": "Collaboration",
+    "title": "Microsoft Teams Setup and Usage",
+    "content": "Microsoft Teams at NovaTech Solutions:\n\nTeams is our primary communication and collaboration platform.\n\nInstallation:\n- Windows/Mac: Download from https://teams.microsoft.com or via Software Center\n- Mobile: Available on iOS and Android app stores\n- Web: Access at https://teams.microsoft.com (no install required)\n\nFirst-Time Login:\n1. Open Teams\n2. Enter your work email: firstname.lastname@novatech.com\n3. Complete MFA verification\n4. Teams will auto-join you to your department channels\n\nKey Channels (pre-configured):\n- #general — Company-wide announcements\n- #it-help — Quick IT questions (monitored by IT team)\n- #hr-announcements — HR updates\n- #team-[your-team-name] — Your team's channel\n\nFeatures Available:\n- 1:1 and group chat\n- Voice and video calls\n- Meeting scheduling (integrates with Outlook calendar)\n- File sharing (SharePoint-backed)\n- Screen sharing during calls\n- Together mode and background blur\n\nMeeting Best Practices:\n- Always mute when not speaking\n- Use 'Raise Hand' feature for questions\n- Record important meetings (notify all participants before recording)\n\nTeams Storage: Files shared in Teams are stored in SharePoint. Each team has 1TB storage.",
+    "keywords": ["teams", "microsoft teams", "video call", "chat", "collaboration", "teams setup", "meetings"]
+  },
+  {
+    "id": "it_010",
+    "category": "IT Support",
+    "subcategory": "Collaboration",
+    "title": "Zoom Meeting Setup",
+    "content": "Zoom at NovaTech Solutions:\n\nNovaTech has a company-wide Zoom Business license. All employees get a licensed account.\n\nActivating Your Account:\n1. Go to https://novatech.zoom.us\n2. Click 'Sign In with SSO'\n3. Enter 'novatech' as the company domain\n4. You'll be redirected to Microsoft login — use your work credentials\n5. Your Zoom account is now active\n\nInstalling Zoom:\n- Desktop: Download from https://zoom.us/download or Software Center\n- Mobile: Zoom app on iOS/Android\n\nScheduling Meetings:\n- Use the Zoom Outlook Plugin to schedule directly from Outlook calendar\n- Or go to zoom.us > 'Schedule a Meeting'\n- Personal Meeting ID (PMI): Your dedicated meeting room link\n\nLicense Features:\n- Unlimited meeting duration (up to 300 participants)\n- Cloud recording (stored for 30 days)\n- Breakout rooms\n- Webinar mode (for all-hands meetings)\n\nZoom vs Teams:\n- Use Teams for internal meetings and day-to-day collaboration\n- Use Zoom for external client calls, demos, and webinars\n\nCommon Issues:\n- Audio echo: Use headphones or click 'Mute Original Sound'\n- Video not working: Check Settings > Video > Camera permissions\n- Can't join: Ensure Zoom is updated to latest version",
+    "keywords": ["zoom", "zoom meeting", "video conferencing", "zoom setup", "zoom account"]
+  },
+  {
+    "id": "it_011",
+    "category": "IT Support",
+    "subcategory": "Printing",
+    "title": "Printer Setup and Printing Guide",
+    "content": "Printer Setup at NovaTech Solutions:\n\nPrinters are available on each floor. Find the nearest printer by checking the floor map on the intranet.\n\nPrinter Models:\n- Floors 1-3: Canon imageRUNNER ADVANCE C5535 (Color + B&W)\n- Floor 4-5 (Executive): HP Color LaserJet E77830\n\nAdding a Printer (Windows):\n1. Press Win + R, type '\\\\printserver.novatech.internal', press Enter\n2. You'll see all available printers listed by floor\n3. Double-click the nearest printer to install\n4. The printer appears in your Devices and Printers\n\nAdding a Printer (Mac):\n1. System Preferences > Printers & Scanners > '+'\n2. Click 'IP' tab\n3. Address: printserver.novatech.internal\n4. Protocol: IPP\n5. Queue: /printers/[floor]-printer (e.g., /printers/floor2-printer)\n\nFollow-Me Printing (Secure Print):\n- For confidential documents, select 'Secure Print' in print settings\n- Walk to any printer on your floor\n- Tap your NovaTech ID card on the printer reader\n- Your pending jobs appear — select and print\n\nPaper and Toner:\n- Report low toner via IT Portal > 'Consumables Request'\n- Paper is stored in the printer room adjacent to each floor kitchen\n- Standard paper is A4; legal (A3) available on request",
+    "keywords": ["printer", "printing", "print", "scanner", "secure print", "printer setup", "cannot print"]
+  },
+  {
+    "id": "it_012",
+    "category": "IT Support",
+    "subcategory": "Storage",
+    "title": "File Storage and OneDrive",
+    "content": "File Storage at NovaTech Solutions:\n\nNovaTech uses Microsoft OneDrive and SharePoint for cloud file storage.\n\nOneDrive (Personal Files):\n- Every employee gets 1TB OneDrive storage\n- Access via: https://novatech-my.sharepoint.com or Windows Explorer\n- Files sync automatically when connected to internet or VPN\n- Offline access: Right-click a file/folder > 'Always keep on this device'\n\nSharePoint (Team/Department Files):\n- Department documents, shared projects, and templates are on SharePoint\n- Access via Teams (Files tab in each channel) or direct link\n- https://novatech.sharepoint.com/sites/[department-name]\n\nMapped Network Drives:\n- When on VPN or in office, Z: drive maps to your department's shared folder\n- If the drive isn't mapped, run the 'Map Drives' script from Software Center\n\nImportant Policies:\n- Do NOT store company data on personal Google Drive, Dropbox, or USB drives\n- Confidential documents must be stored on SharePoint with restricted access\n- To set document permissions, right-click > Manage Access\n\nStorage Limit Exceeded:\n- If you exceed 1TB (rare), submit an IT ticket for additional storage\n- Regularly archive old projects to the department SharePoint archive folder\n\nBackup Policy:\n- OneDrive and SharePoint data is backed up daily by IT\n- Version history is available for 180 days (right-click file > Version History)",
+    "keywords": ["onedrive", "sharepoint", "storage", "file storage", "cloud storage", "network drive", "backup files"]
+  },
+  {
+    "id": "it_013",
+    "category": "IT Support",
+    "subcategory": "Security",
+    "title": "Data Security and Acceptable Use Policy",
+    "content": "Data Security Policy at NovaTech Solutions:\n\nAcceptable Use:\n- Company devices are for work purposes. Limited personal use is allowed during non-work hours.\n- Do NOT use company devices for personal business, streaming, or gaming\n- Do NOT install software not approved by IT\n- Do NOT disable endpoint protection (CrowdStrike/Windows Defender)\n\nData Classification:\n- Public: Marketing materials, press releases\n- Internal: General company documents\n- Confidential: Customer data, financial records, HR data, source code\n- Restricted: Passwords, encryption keys, PII data\n\nHandling Confidential Data:\n- Never email customer PII to personal email accounts\n- Encrypt files before sharing externally (use 7-Zip with AES-256)\n- Shred physical documents containing confidential information\n- Lock your screen (Win+L / Ctrl+Cmd+Q) when stepping away\n\nReporting Security Incidents:\n- Phishing email: Forward to phishing@novatech.com, do not click links\n- Lost/stolen device: Immediately call IT Security at ext. 2021\n- Suspected breach: Contact security@novatech.com\n\nPenalty for policy violations:\n- First offense: Written warning\n- Second offense: Suspension pending investigation\n- Third offense: Termination",
+    "keywords": ["security", "data security", "acceptable use", "phishing", "data policy", "lost laptop", "stolen device"]
+  },
+  {
+    "id": "it_014",
+    "category": "IT Support",
+    "subcategory": "Help Desk",
+    "title": "IT Help Desk Contact Information",
+    "content": "IT Help Desk at NovaTech Solutions:\n\nContact Channels:\n- Phone: Ext. 2020 (internal) | +91-80-4455-2020 (external)\n- Email: it-support@novatech.com\n- IT Portal: https://itportal.novatech.internal\n- Walk-in: IT Department, Ground Floor, B-Wing (Room G-02)\n- Teams Channel: #it-help\n\nSupport Hours:\n- Monday – Friday: 8:00 AM – 8:00 PM IST\n- Saturday: 9:00 AM – 2:00 PM IST (limited support)\n- Sunday & Public Holidays: Emergency only (ext. 2021)\n\nPriority Levels:\n- P1 (Critical): Entire team unable to work — 30-minute response\n- P2 (High): Individual cannot access critical systems — 2-hour response\n- P3 (Medium): Issue impacts work but workaround exists — 4-hour response\n- P4 (Low): General queries, non-urgent requests — 1 business day response\n\nSelf-Service Options (available 24/7):\n- Password reset: https://passwords.novatech.internal\n- Software downloads: Software Center (Windows) or Self-Service (Mac)\n- IT Portal: Raise tickets, track status, view FAQs\n\nFor after-hours emergencies (system outages, security incidents):\nCall +91-80-4455-2021 (on-call IT engineer)",
+    "keywords": ["it help desk", "it support contact", "contact it", "phone it", "raise ticket", "it hours", "support hours"]
+  },
+  {
+    "id": "it_015",
+    "category": "IT Support",
+    "subcategory": "Network",
+    "title": "Network Drive and Shared Folder Access",
+    "content": "Network Drives at NovaTech Solutions:\n\nDrive Mappings:\n- Z: Department shared drive (e.g., Z:/Engineering/, Z:/HR/)\n- Y: Company-wide resources (templates, brand assets, training materials)\n- X: Finance drive (Finance team only)\n\nAccessing Network Drives:\nPrerequisites: Must be on VPN if working remotely, or connected to office WiFi (NovaTech-Corp).\n\nIf drives are not mapped:\n1. Open File Explorer\n2. Right-click 'This PC' > 'Map Network Drive'\n3. Drive letter: Z\n4. Folder: \\\\fileserver.novatech.internal\\[department]\n5. Check 'Reconnect at sign-in'\n\nOr run the automated script:\n1. Open Software Center\n2. Search 'Map Network Drives'\n3. Click Install — drives will be mapped automatically\n\nAccess Requests:\n- If you need access to a shared folder outside your department, submit an 'Access Request' on the IT Portal\n- Your manager and the owner of the folder will both need to approve\n- Access provisioning: 1 business day\n\nStorage Quotas:\n- Department drives: No individual quota, but department total is 5TB\n- Contact IT if department storage exceeds 80% capacity",
+    "keywords": ["network drive", "shared drive", "z drive", "mapped drive", "shared folder", "file server access"]
+  },
+  {
+    "id": "it_016",
+    "category": "IT Support",
+    "subcategory": "Conferencing",
+    "title": "Conference Room Booking and AV Equipment",
+    "content": "Conference Room Booking at NovaTech Solutions:\n\nBooking a Room:\n1. Open Outlook Calendar\n2. Create a new meeting\n3. Click 'Add Rooms' and search for available rooms\n4. Rooms are named by floor and capacity (e.g., 'Floor2-Boardroom-10', 'Floor3-HuddleRoom-4')\n5. Select a room — it will be added to your meeting invite\n6. Send the invite to participants\n\nRoom Facilities:\n- All conference rooms have: TV/display, HDMI cable, USB-C adapter, whiteboard\n- Boardrooms (capacity 10+): Video conferencing system (Teams Room), phone conferencing\n- Huddle rooms (capacity 2-4): TV with wireless casting (Miracast/AirPlay)\n\nAV Troubleshooting:\n- HDMI not detected: Check cable connection, try restarting display\n- Sound issues: Use room's speaker, not laptop speakers\n- Teams Room device issues: Press 'Help' on the room controller, IT will join remotely\n\nBooking Rules:\n- Maximum 4-hour single booking\n- Release room if not occupied within 15 minutes (use the room panel to confirm occupancy)\n- No food allowed in premium boardrooms\n\nReport AV issues: IT Portal > 'Facilities & AV Issue'",
+    "keywords": ["conference room", "meeting room", "book room", "av equipment", "hdmi", "projector", "video conferencing room"]
+  },
+  {
+    "id": "it_017",
+    "category": "IT Support",
+    "subcategory": "Mobile",
+    "title": "Company Mobile Phone Policy",
+    "content": "Company Mobile Phone Policy at NovaTech Solutions:\n\nEligibility:\n- All employees at Manager level (L5) and above are eligible for a company mobile phone\n- Field sales representatives (all levels) are eligible\n- Other employees may apply with manager + HR approval (for business need)\n\nDevices Available:\n- iPhone 15 (standard for most employees)\n- Samsung Galaxy S24 (Android option available on request)\n\nRequesting a Company Phone:\n1. Submit 'Mobile Device Request' on HR Self-Service Portal\n2. Manager approval required\n3. Device allocated within 5 business days\n4. Sign the Mobile Device Agreement (received via email)\n\nPolicies:\n- Company phone must be enrolled in Intune MDM\n- Work and personal profiles are separated (personal data is private)\n- Monthly data plan: 5GB included, additional data at INR 50/GB\n- International roaming: Request via IT Portal 5 business days before travel\n\nLost or Damaged Phone:\n- Report immediately to IT Security (ext. 2021) for remote wipe\n- First replacement: INR 5,000 excess charge\n- Malicious damage: Full replacement cost\n\nSeparation: Company phones must be returned on last working day.",
+    "keywords": ["company phone", "mobile phone", "work phone", "iphone", "mobile device", "phone policy"]
+  },
+  {
+    "id": "it_018",
+    "category": "IT Support",
+    "subcategory": "Internet",
+    "title": "Internet and Browsing Policy",
+    "content": "Internet Access Policy at NovaTech Solutions:\n\nAll internet traffic on corporate devices and the NovaTech-Corp WiFi network is monitored and filtered by Zscaler.\n\nAllowed Activities:\n- Work-related browsing, research, and downloads\n- Video conferencing (Teams, Zoom, Google Meet)\n- Professional development (LinkedIn Learning, Coursera, YouTube tutorials)\n- Limited personal use during breaks\n\nBlocked Categories (on corporate network):\n- Adult content\n- Gambling websites\n- Hacking tools and torrent sites\n- Streaming (Netflix, Hotstar) — bandwidth intensive\n- Social media is NOT blocked but should not be used excessively during work hours\n\nBandwidth Usage:\n- Downloading large files (>500MB): Schedule for off-peak hours (7 PM – 8 AM) using the 'Scheduled Download' option in your browser\n- Video calls use up to 1.5 Mbps each\n\nIf a Work-Required Site Is Blocked:\n1. Submit a 'URL Whitelist Request' on the IT Portal\n2. Provide URL and business justification\n3. Manager approval required\n4. Typical turnaround: 2 business days\n\nVPN internet: When connected to VPN, your traffic routes through NovaTech's network. For bandwidth-heavy personal activities from home, disconnect VPN when not needed for work.",
+    "keywords": ["internet", "browsing", "blocked website", "internet policy", "website blocked", "url whitelist"]
+  },
+  {
+    "id": "it_019",
+    "category": "IT Support",
+    "subcategory": "Backup",
+    "title": "Data Backup and Recovery",
+    "content": "Data Backup Policy at NovaTech Solutions:\n\nWhat Is Backed Up Automatically:\n- OneDrive: Continuous sync + 180-day version history\n- SharePoint: Daily backup, 180-day retention\n- Email (Outlook): 7-year archival retention (compliance requirement)\n- Server/VM data: Daily incremental, weekly full backup\n\nWhat Is NOT Automatically Backed Up:\n- Files stored only on your local C: drive (Desktop, Downloads)\n- Personal USB drives\n- Data on unmanaged personal devices\n\nBest Practice:\n- Store all work files on OneDrive or mapped network drives — these are backed up\n- Do NOT save important files only to your local Desktop\n- Enable OneDrive Desktop/Documents folder backup:\n  Settings > OneDrive > Backup > Manage Backup > Select Desktop, Documents, Pictures\n\nRecovering Accidentally Deleted Files:\n- OneDrive: Go to OneDrive Recycle Bin (web) — items kept for 30 days\n- SharePoint: Contact IT — files can be restored up to 180 days\n- Email: Check Deleted Items and Recoverable Items folder; contact IT for older restoration\n- Local files: Contact IT immediately — only possible if drive is forensically intact\n\nDisaster Recovery:\n- RTO (Recovery Time Objective): 4 hours for critical systems\n- RPO (Recovery Point Objective): 24 hours",
+    "keywords": ["backup", "data recovery", "deleted file", "restore file", "recover data", "file recovery"]
+  },
+  {
+    "id": "it_020",
+    "category": "IT Support",
+    "subcategory": "Access Management",
+    "title": "New Employee Account Creation and Onboarding IT Setup",
+    "content": "IT Account Setup for New Employees at NovaTech Solutions:\n\nAccounts Created Automatically on Day 1:\n- Windows Active Directory account (domain login)\n- Office 365 email (firstname.lastname@novatech.com)\n- Microsoft Teams access\n- VPN access\n- SharePoint access to department sites\n- IT Portal access\n\nYour Day-1 Credentials:\n- Sent to your personal email address before joining\n- Temporary password: 'NovaTech@[LastFourDigitsOfEmpID]'\n- You must change the password on first login\n\nAdditional Access (request via IT Portal):\n- Source code repositories (GitHub/Azure DevOps): Request 'Developer Access'\n- Finance systems (SAP, Oracle): Requires HR + Finance approval\n- HR systems: Automatically provisioned for HR team\n- Customer data: Requires DPA (Data Processing Agreement) signing\n\nLaptop Setup Checklist:\n1. Change password\n2. Set up MFA\n3. Connect to VPN\n4. Install Teams and Zoom\n5. Map network drives\n6. Configure Outlook\n7. Enable OneDrive backup\n\nAll new employees should attend the IT Orientation session (scheduled in your first week — check your Outlook calendar).",
+    "keywords": ["new employee", "account setup", "onboarding it", "first day it", "account creation", "it setup"]
+  }
+]
