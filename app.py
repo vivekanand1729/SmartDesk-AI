@@ -171,7 +171,8 @@ for msg in st.session_state.display_messages:
 # ─────────────────────────────────────────────
 # Chat input
 # ─────────────────────────────────────────────
-prompt = st.session_state.pending_prompt or st.chat_input("Type your question here…")
+_typed = st.chat_input("Type your question here…")
+prompt = st.session_state.pending_prompt or _typed
 if st.session_state.pending_prompt:
     st.session_state.pending_prompt = None
 
@@ -222,6 +223,8 @@ if prompt:
                 st.session_state.display_messages.append(
                     {"role": "assistant", "content": err_msg}
                 )
+
+    st.rerun()
 
 # ─────────────────────────────────────────────
 # Footer
