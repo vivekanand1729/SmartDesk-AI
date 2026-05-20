@@ -1,5 +1,7 @@
 # SmartDesk AI — Intelligent IT & HR Operations Agent
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-smartdeskai.streamlit.app-ff4b4b?logo=streamlit&logoColor=white)](https://smartdeskai.streamlit.app/)
+
 An agentic AI help desk for NovaTech Solutions (fictional company) that:
 - **Answers** IT and HR questions from a curated knowledge base (RAG)
 - **Creates** support tickets when it cannot answer
