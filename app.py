@@ -39,7 +39,7 @@ _SECRET_KEYS = [
 
 for _key in _SECRET_KEYS:
     if _key in st.secrets:
-        os.environ[_key] = st.secrets[_key]
+        os.environ[_key] = str(st.secrets[_key])
 
 # ─────────────────────────────────────────────
 # Page config (must be first Streamlit call)
