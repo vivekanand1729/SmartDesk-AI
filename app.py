@@ -70,6 +70,20 @@ if not INDEX_FILE.exists():
 from agent.graph import build_graph, new_session
 
 # ─────────────────────────────────────────────
+# Suggested queries shown on first load
+# ─────────────────────────────────────────────
+SUGGESTED_QUERIES = [
+    "How many casual leaves do I get per year?",
+    "How do I reset my password?",
+    "When is payday at NovaTech?",
+    "How do I set up VPN on my laptop?",
+    "What is the work from home policy?",
+    "How do I submit investment proof for tax?",
+    "What do I need to do on my first day?",
+    "What is the notice period if I resign?",
+]
+
+# ─────────────────────────────────────────────
 # Session state initialisation
 # ─────────────────────────────────────────────
 if "agent_state" not in st.session_state:
@@ -80,6 +94,9 @@ if "graph" not in st.session_state:
 
 if "display_messages" not in st.session_state:
     st.session_state.display_messages = []
+
+if "pending_prompt" not in st.session_state:
+    st.session_state.pending_prompt = None
 
 # ─────────────────────────────────────────────
 # Sidebar
@@ -136,6 +153,13 @@ if not st.session_state.display_messages:
             "How can I help you today?"
         )
 
+    st.markdown("**Suggested questions:**")
+    cols = st.columns(2)
+    for i, query in enumerate(SUGGESTED_QUERIES):
+        if cols[i % 2].button(query, key=f"suggestion_{i}", use_container_width=True):
+            st.session_state.pending_prompt = query
+            st.rerun()
+
 # ─────────────────────────────────────────────
 # Render conversation history
 # ─────────────────────────────────────────────
@@ -147,7 +171,11 @@ for msg in st.session_state.display_messages:
 # ─────────────────────────────────────────────
 # Chat input
 # ─────────────────────────────────────────────
-if prompt := st.chat_input("Type your question here…"):
+prompt = st.session_state.pending_prompt or st.chat_input("Type your question here…")
+if st.session_state.pending_prompt:
+    st.session_state.pending_prompt = None
+
+if prompt:
     # Show user message
     with st.chat_message("user", avatar="👤"):
         st.markdown(prompt)
